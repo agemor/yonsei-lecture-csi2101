@@ -49,11 +49,11 @@ p = f
 ### 1. 5. Proof by Cases
 Given
 ```
-(p1 or p2 or p3) → q
+(p1 ∨ p2 ∨ p3) → q
 ```
 Prove
 ```
-(p1 → q) and (p2 → q) and (p2 → q)
+(p1 → q) ∧ (p2 → q) ∧ (p2 → q)
 ```
 ### 1. 6. Proofs of Equivalences
 > Show that m^2=n^2 if and only if m=n or m=-n
@@ -64,7 +64,7 @@ p if and only if q
 ```
 Prove
 ```
-(p → q) and (q → p)
+(p → q) ∧ (q → p)
 ```
 
 ### 1. 7. Existence Proofs
