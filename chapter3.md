@@ -42,8 +42,8 @@ G(x): “x is a good student"
 
 ## Negation of Quantified Statements
 ```
-~(∃x ∈ D, Q(x)) = ∀x ∈ D, ~Q(x)
-~(∀x ∈ D, Q(x)) = ∃x ∈ D, ~Q(x)
+~(∃x ∈ D, Q(x)) ≡ ∀x ∈ D, ~Q(x)
+~(∀x ∈ D, Q(x)) ≡ ∃x ∈ D, ~Q(x)
 ```
 
 ## Variants of Quantified Statements
@@ -87,5 +87,5 @@ The below two are diffrent.
 
 ### Negation of Multiply Quantified Statements
 ```
-~((∃p ∈ P) (∀c ∈ C) [L(c,p)]) = ~((∀p ∈ P) (∃c ∈ C) [~L(c,p)])
+~((∃p ∈ P) (∀c ∈ C) [L(c,p)]) ≡ ~((∀p ∈ P) (∃c ∈ C) [~L(c,p)])
 ```

@@ -84,7 +84,7 @@ Show that such a c exists, but don’t actually find it. (Or assume it does not 
 
 ### Divides Operator
 ```
-(3 | 12) equals (12 mod 3 is 0)
+(3 | 12) ≡ (12 mod 3 is 0)
 ```
 
 ### Prime Number
